@@ -7,6 +7,7 @@ EXEC_FILES=git-tools
 
 # files that need mode 644
 SCRIPT_FILES =git-browse
+SCRIPT_FILES +=git-wip
 
 # Hook files
 HOOK_FILES=$(wildcard hooks/*)
